@@ -2,7 +2,7 @@
 git add *
 git commit -m "First commit"
 git remote add origin https://github.com/tomyjuly/CV-Proyecto-Ticmas.git
-git push --set-upstream origin
+git push --set-upstream origin main
 body {
     background-color: rgb(91, 77, 151);
     }
@@ -13,18 +13,19 @@ body {
   }
   */
 .barranav {
-      background: #0e2d52; 
+    background: #0e2d52; 
     color: aliceblue;
     padding: 10px 30px;
-    text-decoration: none;
+    text-decoration: none; p
 }
 .barranav:hover{
     background: rgb(116, 165, 238);
 }
 nav{
     background: rgb(235, 238, 232);
-    padding: 10 px;
+    padding: 30 px;
     text-align: center;
+    box-sizing: border-box;
     
 }
 .clasefotocv {
@@ -50,13 +51,12 @@ nav{
     font-display: center;*/
 }
 
-li{
+ul{
     text-align: left;
-    list-style:square inside;
-    border: none;
-    margin: 1px 10px 1px 1px;
-    padding: 1px 1px 10px 10px;
+    list-style-type: circle;
+    list-style-position: outside;
 }
+
 section {
     width: auto;
     height: auto;
@@ -68,7 +68,6 @@ section {
     background-color: rgb(235, 238, 232);
     
 }
-
 
 .dp, .fa, .fc, .ep, .lang, .hp, .odi, .ref {
 
