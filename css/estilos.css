@@ -1,4 +1,9 @@
-/*body {
+/*
+git add *
+git commit -m "First commit"
+git remote add origin https://github.com/tomyjuly/CV-Proyecto-Ticmas.git
+git push --set-upstream origin
+body {
     background-color: rgb(91, 77, 151);
     }
 @media only screen and (max-width: 600px) {
@@ -8,12 +13,10 @@
   }
   */
 .barranav {
-  
-    background: rgb(12, 4, 82);
+      background: #0e2d52; 
     color: aliceblue;
     padding: 10px 30px;
     text-decoration: none;
-
 }
 .barranav:hover{
     background: rgb(116, 165, 238);
@@ -66,20 +69,7 @@ section {
     
 }
 
-/*.dp{
 
-    border: 3px solid rgb(56, 180, 230);
-    border-radius: 15px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    background-image: url(https://thumbs.dreamstime.com/b/estilo-de-caricatura-icono-datos-personales-tarjeta-del-vector-la-para-el-dise%C3%B1o-web-aislado-en-fondo-blanco-191638202.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 27.5% 100%;
-    /*margin: 0px 1px 20px 1px;
-    padding: 1px 1px 20px 1px;
-
-}*/
 .dp, .fa, .fc, .ep, .lang, .hp, .odi, .ref {
 
     border: 3px solid rgb(56, 180, 230);
@@ -118,5 +108,6 @@ p{
     font-size: small;
     padding: 0px 10px 0px 10px;
     margin: 0px 5px 0px 5px;
+    line-height: 1.4;
 }
 
