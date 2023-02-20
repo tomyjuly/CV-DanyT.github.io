@@ -61,10 +61,10 @@ section {
     width: auto;
     height: auto;
     border: none; /*3px solid rgb(56, 180, 230);*/
-    margin: 20px 15px 15px 20px;
-    padding: 5px 5px 5px 5px;
+    margin: 20px 0px 15px 0px;
+    padding: 5px 0px 5px 0px;
     overflow: hidden;
-	width: 95%;
+	/*width: 95%;*/
     background-color: rgb(235, 238, 232);
     
 }
