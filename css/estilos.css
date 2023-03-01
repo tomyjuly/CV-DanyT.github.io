@@ -38,13 +38,14 @@ nav{
     margin-bottom: 15px;   
 }
 .clasetituloppal {
-    border: 2px solid rgb(56, 180, 230);
+    border: none;
     font-weight: bold;
     color: rgb(10, 73, 131);
-    font-size: 35px;
+    font-size: 70px;
     margin-top: 5px;
     margin-bottom: 15px;
-    padding: 20px;  
+    margin-left: 1px;
+    padding: 20px 20px 20px 0px;  
     /*margin: 30px 10px 20px 80px;*/
     /*padding: 20px 20px 20px 30px;
     /*text-align: center;*/

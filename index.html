@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Digital Jhonn Perez</title>
     <link rel="icon" type="image/x-icon" href="https://www.w3schools.com/images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+    <script src="js/function.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
@@ -22,10 +22,10 @@
     <div class="container-fluid text-center p-0 ">
         <div class="row">
             <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-                <img class="clasefotocv text-center" src="imagenes\fotocv.png" alt="fotocv" height="100" width="100">
+                <img id="cvfoto" class="clasefotocv text-center" src="imagenes\fotocv.png" alt="fotocv" height="100" width="100" onmouseover="agrandarfoto()" onmouseout="achicarfoto()">
             </div>
             <div class="col-xs-6 col-sm-10 col-md-10 col-lg-10">
-                <div class="clasetituloppal text-center"> C.V. Licenciado en Informática Jhonn Perez
+                <div id="titulo" class="clasetituloppal text-center"onmouseover="colorrojo()" onmouseout="colornegro()"> C.V. Licenciado en Informática Jhonn Perez
                 </div>
             </div>
         </div>
@@ -50,8 +50,8 @@
     <div class="container-fluid p-0">
         <div class="row" >
             <div class="col-xs-1 col-sm-4 col-md-3 col-xl-3">
-                <div class="dp" id="infpers">
-                    <h2>Datos Personales</h2>
+                <div class="dp" id="infpers" >
+                    <h2>Datos Personales </h2>
                     <ul>
                         <li>Nombre Completo: Perez, Jhonn </li> 
                         <li>Fecha de nacimiento: 5 de Noviembre de 1980</li>
@@ -67,7 +67,7 @@
             </div>
             <div class="col-xs-1 col-sm-4 col-md-4 col-xl-4">
                 <div class="fa" id="formacad">
-                    <h2>Formación Académica</h2>
+                    <h2 id="titulo" >Formación Académica</h2>
                     <h3>Educación Secundaria:</h3>
                     <ul>
                         <li>Perito Mercantil - Colegio Nacional Buenos Aires.</li> 
